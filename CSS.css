@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hang{
+    width: 36px;
+    height: 66px;
+    position: fixed;
+    background-color: #83b738;
+    right: 0px;
+    top: 150px;
+    z-index: 1;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: transparent; 
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-top: 30px;
+    transition-duration: 0.3s;
+}
+
+button:hover{
+    background-color: white; 
+    color: black;
+    cursor: pointer;
+}
+
+hr {
+    width: 50px;
+    margin-top: 30px;
+    background-color: white;
+    height: 3px;
+    border-style: none;
+}
+
+.text1 {
+    position: absolute;
+    left: 200px;
+    top: 300px ;
+}
+
+.text2 {
+    position: absolute;
+    right: 200px;
+    top: 300px ;
+}
+
+.text3 {
+    position: absolute;
+    left: 200px;
+    top: 100px ;
+    height: inherit;
+}
+
+.big1, .small1{
+    width: 500px;
+    margin-top: 40px;
+}
+
+.big1 {
+    font-size: 18px;
+}
+
+.small1 {
+    font-size: 15px;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: auto;
+    height: 1000px;
+    position: relative;
+}
+
+div span {
+    font-size: 85px;
+}
+
+
+
+.iphone5c {
+    background-image: linear-gradient(45deg, #e3f5ab, #a3ce07);
+}
+
+.rightpic1 {
+    position: absolute;
+    right: 100px;
+    top: 84px;
+}
+
+.iphone6s {
+    background-image: linear-gradient(45deg, #bd781d, #fb9d23);
+}
+
+.leftpic {
+    position: absolute;
+    left: 100px;
+    top: 84px;
+}
+
+.ipadair {
+    background-image: linear-gradient(45deg, #45484d,#000000);
+    height: 800px;
+}
+
+.rightpic2 {
+    position: absolute;
+    right: 10px;
+    top: 84px;
+    width: 50%;
+}
+
+.darklogo {
+    width: 100px;
+}
+
+.lightlogo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
